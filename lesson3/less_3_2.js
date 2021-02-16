@@ -6,7 +6,7 @@
 let arr = [1800, 2300, 5200, 738, 999, 2999, 850, 7500];
 let sumArr = 0;
 
-// b) Организовать функцию countBasketPrice, которая будет считать стоимость корзины.
+// b) Организовать функцию countBasketPrice, которая будет считать стоимость корзины
 function countBasketPrice(array) {
     for (let i = 0; i < array.length; i++) {
         sumArr += array[i];
